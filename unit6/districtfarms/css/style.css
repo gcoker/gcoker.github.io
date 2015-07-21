@@ -29,6 +29,7 @@ h1 {
   font-family: Arial;
   font-size: 2em;
   padding: 1.5% 1%;
+  float: left;
 }
 
 h2 {
@@ -36,6 +37,7 @@ h2 {
 	color: #FFF;
 	padding: .5%;
   font-size: 1em;
+  float: left;
 }
 
 p{
@@ -54,14 +56,11 @@ input {
   padding: 1px;
 }
 
-div {
-  float: left;
-  }
-
 #puddin {
   width: 20%;
   background-color: rgb(69, 178, 4);
   height: 63.5%;
+  float: left;
 }
 
 aside{
@@ -109,16 +108,13 @@ footer {
 @media only screen and (max-width: 1024px) and (min-width: 768px) {
   h1 {
   font-size: 3em;
+  color: red;
 }
 h2 {
   font-size: 1em;
   padding-left: 1em;
+  clear: both;
 }
-  h1, h2{
-  text-align: center;
-  float: left;
-}
-
 }
 @media only screen and (max-width: 768px) and (min-width: 480px)  {
 header {

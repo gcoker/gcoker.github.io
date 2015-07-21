@@ -20,14 +20,14 @@ header {
 #logo {
   float: left;
   margin: 1%;
-  border: 12px solid;
+  border: 4px solid;
   border-radius: 100%;
 }
 
 h1 {
   color: #FFF;
   font-family: Arial;
-  font-size: 2em;
+  font-size: 3em;
   padding: 1.5% 1%;
 }
 
@@ -106,23 +106,21 @@ footer {
 #fb-like {
   float: none;
 }
-@media only screen and (max-width: 1024px) and (min-width: 768px) {
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  header {
+    height: 20%;
+  }
   h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 h2 {
   font-size: 1em;
   padding-left: 1em;
 }
-  h1, h2{
-  text-align: center;
-  float: left;
 }
-
-}
-@media only screen and (max-width: 768px) and (min-width: 480px)  {
+@media only screen and (max-width: 767px) and (min-width: 481px)  {
 header {
-  height: 30%;
+  height: 20%;
 }
 #logo {
   border: 4px solid;
@@ -130,15 +128,12 @@ header {
   clear:both;
 }
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 h2 {
   font-size: 1em;
   padding-left: 1em;
 }
-  h1, h2{
-  text-align: center;
-  float: left;
 }
 input{
   max-width: 25%;
@@ -163,11 +158,11 @@ header {
 }
 #logo {
   border: 4px solid;
-  margin-top: 1em;
+  margin-top: 1.5em;
   clear:both;
 }
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 h2 {
   font-size: 1em;

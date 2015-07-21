@@ -94,6 +94,9 @@ a {
 a:hover {
   background-color: rgb(255, 187, 65);
 }
+div {
+  float: left;
+}
 
 footer {
   background-color: #00F;
